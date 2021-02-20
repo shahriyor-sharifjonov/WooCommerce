@@ -1,0 +1,1 @@
+importScripts('https://v6hy-news.club/rp-site-sw.js');
