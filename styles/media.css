@@ -31,6 +31,7 @@
   }
   .about__items{
     flex-direction: column;
+    height: max-content;
   }
   .about__item{
     justify-content: center;

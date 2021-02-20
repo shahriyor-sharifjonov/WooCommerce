@@ -133,6 +133,8 @@ body{
 }
 .about__items{
   display: flex;
+  margin-top: 50px;
+  height: 650px;
 }
 .about__item{
   display: flex;
@@ -142,13 +144,13 @@ body{
   position: relative;
 }
 .about__item:nth-of-type(1){
-  margin-top: 0px;
+  align-self: flex-start;
 }
 .about__item:nth-of-type(2){
-  margin-top: 70px;
+  align-self: center;
 }
 .about__item:nth-of-type(3){
-  margin-top: 140px;
+  align-self: flex-end;
 }
 .about__img{
   max-width: 100%;
